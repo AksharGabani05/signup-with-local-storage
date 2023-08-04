@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+
+var abc=localStorage.getItem("code"); //
+
+if(abc=="secret"){
+
+    var test=localStorage.getItem("abc");
+    
+    if(test=="save password" )
+{
+
+}else {
+    var al=confirm("PLEASE CLICK OK TO SAVE PASSWORD OR CLICK CANCEL TO NOT SAVE PASSWORD")
+
+    if(al==true){
+    var savepass=localStorage.setItem("abc","save password");
+}else {
+
+}
+
+}
+
+}
+else {
+    window.location.href="login.html";
+}
+
+
+
+
+// var sec=localStorage.getItem("code");
+
+// if(sec=="secret"){
+
+// }
+// else {
+//     window.location.href="login.html";
+// }
+
+// var bool=document.cookie; 
+// // var getlocal=localStorage.getItem("email1");
+
+//  if(bool){
+// // alert("es k pass to null value h ");
+// }else {
+//     window.location.href="login.html";
+// }
+
+
+</script>
+
+    <h1> welcome: <script> document.write(localStorage.getItem("name1"))</script></h1>
+
+<script>
+
+// var abc= confirm("CLICK OK FOR YES AND CLICK CANCEL FOR NO");
+
+// if(abc==true){
+
+//     var getitem1=localStorage.getItem("email1");
+//     var getitem2=localStorage.getItem("pass1");
+
+// document.cookie="emailc= "+getitem1+"; max-age="+60*60*24*2;
+// document.cookie="passc= "+getitem2+"; max-age="+60*60*24*2;
+
+    
+// }
+
+</script>
+
+
+<a href="logout.html"> LOGOUT </a>
+
+</body>
+</html>
