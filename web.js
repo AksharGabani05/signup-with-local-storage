@@ -111,7 +111,6 @@ function show(img){
     document.querySelector(".cart").style.display="flex"
 }
 
-
 function addCart(){
     alert("Added To Cart");
     location.reload()
